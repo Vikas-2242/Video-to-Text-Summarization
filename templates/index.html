@@ -1,0 +1,380 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		
+	#btn1{
+	background-color: blue;
+	color: white;
+	margin-right: 50px;
+	border-radius: 15px;
+	font-weight: bold;
+	padding: 15px;
+  }
+  #btn2{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 15px;
+	font-weight: bold;
+	padding: 15px;
+  }
+  #btn3{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	border-radius: 15px;
+	font-weight: bold;
+	padding: 15px;
+  }
+  #btn4{
+	background-color: rgb(205, 205, 219);
+	color: white;
+	width: 26python 0px;
+	margin-top:50px;
+	margin-right: 50px;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 10px;
+  }
+  h2,h1{
+	text-align: center;
+  }
+  #para{
+	font-weight: bold;
+	text-align: center;
+  }
+  .header1{
+	font-weight: bold;
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	font-size: 20px;
+  }
+  .div1{ 
+	display: flex;
+  } 
+  .div1 li{
+	display: flex;
+	margin-right: 50px;
+	align-items: space-around;
+  }
+  .div2{ 
+	display: flex;
+  } 
+  .div2 li{
+	display: flex;
+	margin-right: 50px;
+	align-items: space-around;
+  }
+  #logo{
+	color: blue;
+	font-weight: bold;
+	font-size: 40px;
+  }
+  #footer{
+	background-color: rgb(239, 232, 232);
+	color: black;
+	font-weight: bold;
+	list-style: none;
+  }
+  .div3{
+	display: flex;
+	justify-content: space-around;
+  }
+  .div4{
+	display: flex;
+	justify-content: space-around;
+  }
+  .div5{
+	display: flex;
+	justify-content: space-around;
+  }
+  #btn2:hover{
+	background-color: red;
+	color: white;
+  }
+  #btn3:hover{
+	background-color: red;
+	color: white;
+  }
+	</style>
+</head>
+<body>
+	<header class='header1'>
+		<div class="div1">
+		  <li>TextSummarizer</li>
+		</div>
+		
+
+	   
+		<div class="div2">
+		</div>
+		<button id='btn1'>Get Started</button>
+	  </header>
+	  <br /><br /><br /><br /><br /><br /><br /><br /><br />
+		<h1>Video to Text</h1>
+		<p id='para'>Easily convert video to text in your browser</p>
+		<br>
+		<div class="div4">
+			<form action = "/success" method = "post" enctype="multipart/form-data">  
+				<input id='btn1' type="file" name="file"></input>
+				<input id='btn2' type = "submit" value="Upload" class="hover"></input>  
+			</form> 
+			
+		</div>
+		<div class="div5">
+			<form action="/success1" method="post">
+				<input id="btn4" type="text" name="youtube_link" placeholder="Enter YouTube Video Link"></input>
+				<input id="btn3"type="submit" value="Upload" class="hover"></input>
+			</form>
+			
+		</div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <style>
+	body{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		overflow-x: hidden;
+	}
+
+#btn1{
+background-color: blue;
+color: white;
+/* margin-right: 50px; */
+border-radius: 15px;
+font-weight: bold;
+padding: 15px;
+margin-top: 10px;
+margin-left: 55px;
+}
+#btn2{
+background-color: white;
+color: black;
+border: 1px solid black;
+border-radius: 15px;
+font-weight: bold;
+padding: 15px;
+}
+#btn3{
+background-color: white;
+color: black;
+border: 1px solid black;
+border-radius: 15px;
+font-weight: bold;
+padding: 15px;
+}
+#btn4{
+background-color: rgb(205, 205, 219);
+color: white;
+width: 26python 0px;
+margin-top:50px;
+margin-right: 50px;
+border-radius: 15px;
+font-weight: bold;
+background-color: blue;
+color: red;
+padding-top: 17px;
+padding-bottom: 17px;
+padding-left: 55px;
+padding-right: 55px;
+margin-left: 50px;
+}
+h2,h1{
+text-align: center;
+}
+#para{
+font-weight: bold;
+text-align: center;
+}
+.header1{
+font-weight: bold;
+display: flex;
+list-style: none;
+justify-content: space-evenly;
+font-size: 20px;
+}
+.div1{ 
+display: flex;
+} 
+.div1 li{
+display: flex;
+margin-right: 50px;
+align-items: space-around;
+margin-top: 10px;
+}
+.div2{ 
+display: flex;
+} 
+.div2 li{
+display: flex;
+margin-right: 50px;
+align-items: space-around;
+}
+#logo{
+color: blue;
+font-weight: bold;
+font-size: 40px;
+}
+#footer{
+background-color: rgb(239, 232, 232);
+color: black;
+font-weight: bold;
+list-style: none;
+}
+.div3{
+display: flex;
+justify-content: space-around;
+}
+.div4{
+display: flex;
+justify-content: space-around;
+}
+.div5{
+display: flex;
+justify-content: space-around;
+}
+#btn2:hover{
+background-color: red;
+color: white;
+}
+#btn3:hover{
+background-color: red;
+color: white;
+}
+.heading{
+text-align: center;
+color: white;
+background-color: red;
+padding: 20px;
+width: 40%;
+margin: 2px auto;
+margin-bottom: 15px;
+border: 1px solid black;
+border-radius: 20px;
+}
+.main{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+.box1,.box2{
+border: 1px solid black;
+width: 400px;
+height: auto;
+border-radius: 10px;
+padding: 10px;
+color: black;
+font-size: medium;
+gap: 3px;
+}
+.originaltext{
+display: flex;
+flex-direction: column;
+}
+.head1{
+color: blue;
+}
+#number{
+	width: 50px;
+	/* margin-right: 35px; */
+}
+/* .percent{
+	width: 30px;
+	height: 30px;
+	margin: 10px auto;
+} */
+</style>
+<!-- <script>
+	function handler()
+	{
+		var val=document.getElementById('hari').value;
+	console.log(val);
+	}
+	
+ </script>  -->
+</head>
+<body>
+  <header class='header1'>
+    <div class="div1">
+      <li>TextSummarizer</li>
+    </div>
+    
+
+     
+    <div class="div2">
+    </div>
+    <button id='btn1'>Get Started</button>
+    </header>
+    <br /><br /><br />
+
+	<h1 class="heading">Video to text summarization</h1>
+  <br><br><br>
+    <div class="div4">
+      <form action = "/success" method = "post" enctype="multipart/form-data">  
+        <input id='btn1' type="file" name="file"></input>
+		<input type="number" name="user_number" placeholder="Enter approax percentange" id="number">
+        <input id='btn2' type = "submit" value="Upload" class="hover" ></input>  
+		
+      </form>   
+    </div>
+
+    <div class="div5">
+      <form action="/success1" method="post">
+        <input id="btn4" type="text" name="youtube_link" placeholder="Enter YouTube Video Link"></input>
+        <input id="btn3"type="submit" value="Upload" class="hover" ></input>
+		<!-- <input type="number" name="user_number"> -->
+      </form>  
+    </div>
+	<br><br><br>
+
+	<!-- <div class="percent">
+		<h3>Enter howmany percentage</h3>
+		<input type="number" id="hari">
+	</div> -->
+
+
+        <br><br><br><br>
+        <div class="main">
+            <div class="originaltext">
+                <h1 class="head1">OriginalText</h1>
+                <div class="box1">
+                  {{original_text}}
+                </div>
+            </div>
+            <div class="summarizetext">
+                <h1 class="head1">SummarizeText</h1>
+                <div class="box2">
+                    {{summarized_text}}
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+    <video autoplay muted loop>
+      <source src="../banner.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+       
+</html>
